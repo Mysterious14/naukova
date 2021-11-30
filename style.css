@@ -63,22 +63,80 @@ p{
     padding-left: 25px;
     font-size: 26px;
 }
-ul{
+
+#end{
+    padding-bottom: 50px;
+}
+@media(min-width:360px)and (max-width:640px){
+    *{
+    margin: 0%;
+    overflow-x: hidden;
+}
+.blueBack{
+    background-color: rgba(13, 226, 226, 0.349);
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    color: green;
+    padding-top: 5%;
+    font-size: 25px;
+
+}
+#text-shadow-2 {
+    padding-top: 2%;
+    color: green;
+    text-shadow: 1px 1px 5px blue;
+    font-size: 50px;
+}
+
+#triangle{
+    border: 750px solid transparent; 
+    border-top: 40px solid rgba(13, 226, 226, 0.349);
+    position: absolute;
+
+}
+button{
+    margin-top: 3%;
+    box-shadow: 0 0 3px 3px rgb(110, 197, 107);	
+    border-radius: 25px;
+    border: none;
+    color: green;
+    background-color: rgba(13, 226, 226, 0.349);
+    font-size: 25px;
+    padding:5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 1%;
+    cursor: pointer;
+        text-align: center;
+
+}
+a{
+    text-decoration: none;
+}
+button:hover{
+    box-shadow:0 0 3px 3px white;	
+
+}
+#monography{
+    padding-top: 7%;
+    padding-left: 25px;
+    font-size: 24px;
+
+}
+p{
     padding-top: 9px;
     padding-left: 35px;
     font-size: 18px;
     padding-right: 10px;
 }
-#forkey{
-    font-size: 22px;
+#forscience{
+    padding-top: 20px;
+    padding-left: 25px;
+    font-size: 26px;
 }
-#list{
-    padding-left: 40px;
-}
-#cooperation{
-    font-size: 22px;
-    text-decoration: underline;
-}
+
 #end{
     padding-bottom: 50px;
+}
 }
